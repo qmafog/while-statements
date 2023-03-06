@@ -127,7 +127,7 @@ public static int SumArithmeticSequenceTerms1(int a1, int n)
 
 #### Sub-task 2
 
-Open the [ArithmeticSequences.cs](WhileStatements/ArithmeticSequences.cs) file, and navigate to the [SumArithmeticSequenceTerms2](WhileStatements/ArithmeticSequences.cs#L5) method.
+Open the [ArithmeticSequences.cs](WhileStatements/ArithmeticSequences.cs) file, and navigate to the [SumArithmeticSequenceTerms2](WhileStatements/ArithmeticSequences.cs#L11) method.
 
 Implement the method that returns the sum of an arithmetic sequence elements when the first term is 17 and the common difference is 33.
 
