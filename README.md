@@ -221,7 +221,7 @@ The algorithm you have to implement is shown on the flowchart diagram below.
 
 #### Sub-task 6
 
-Open the [QuadraticSequences.cs](WhileStatements/QuadraticSequences.cs) file, and navigate to the [SumQuadraticSequenceTerms2](WhileStatements/QuadraticSequences.cs#L5) method.
+Open the [QuadraticSequences.cs](WhileStatements/QuadraticSequences.cs) file, and navigate to the [SumQuadraticSequenceTerms2](WhileStatements/QuadraticSequences.cs#L11) method.
 
 Implement the method that returns the sum of _count_ quadratic sequence terms starting with the _startN_ term.
 
