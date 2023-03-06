@@ -259,7 +259,7 @@ The algorithm you have to implement is shown on the flowchart diagram below.
 
 #### Sub-task 8
 
-Open the [GeometricSequences.cs](WhileStatements/GeometricSequences.cs) file, and navigate to the [SumGeometricSequenceTerms2](WhileStatements/GeometricSequences.cs#L5) method.
+Open the [GeometricSequences.cs](WhileStatements/GeometricSequences.cs) file, and navigate to the [SumGeometricSequenceTerms2](WhileStatements/GeometricSequences.cs#L11) method.
 
 Implement the method that returns the sum of a geometric sequence terms when the first term is 13 and the common ratio is 3.
 
@@ -270,7 +270,7 @@ Introduce a constant to avoid magic numbers in your code.
 
 #### Sub-task 9
 
-Open the [GeometricSequences.cs](WhileStatements/GeometricSequences.cs) file, and navigate to the [CountGeometricSequenceTerms3](WhileStatements/GeometricSequences.cs#L5) method.
+Open the [GeometricSequences.cs](WhileStatements/GeometricSequences.cs) file, and navigate to the [CountGeometricSequenceTerms3](WhileStatements/GeometricSequences.cs#L17) method.
 
 Implement the method that counts terms in a geometric sequence that are less than or equal to _maxTerm_.
 
@@ -279,7 +279,7 @@ If _a_ is 3 and _r_ is 2 the geometric sequence is $`\{3, 6, 12, 24, 48, ...\}`$
 
 #### Sub-task 10
 
-Open the [GeometricSequences.cs](WhileStatements/GeometricSequences.cs) file, and navigate to the [CountGeometricSequenceTerms4](WhileStatements/GeometricSequences.cs#L5) method.
+Open the [GeometricSequences.cs](WhileStatements/GeometricSequences.cs) file, and navigate to the [CountGeometricSequenceTerms4](WhileStatements/GeometricSequences.cs#L23) method.
 
 Implement the method that counts terms in a geometric sequence that are greater than or equal to a _minTerm_.
 
@@ -297,7 +297,7 @@ Implement the method that finds the sum of the digits of an _n_ number. For the 
 
 #### Sub-task 12
 
-Open the [Digits.cs](WhileStatements/Digits.cs) file, and navigate to the [GetDigitsProduct](WhileStatements/Products.cs#L5) method.
+Open the [Digits.cs](WhileStatements/Digits.cs) file, and navigate to the [GetDigitsProduct](WhileStatements/Products.cs#L11) method.
 
 Implement the method that finds product of the digits of an _n_ number. For the number 123 the product of the digits is 6 (1 * 2 * 3).
 
@@ -313,14 +313,14 @@ Implement the method that returns true when _n_ is a prime number; otherwise the
 
 #### Sub-task 14
 
-Open the [PrimeNumbers.cs](WhileStatements/PrimeNumbers.cs) file, and navigate to the [GetLastPrimeNumber](WhileStatements/PrimeNumbers.cs#L5) method.
+Open the [PrimeNumbers.cs](WhileStatements/PrimeNumbers.cs) file, and navigate to the [GetLastPrimeNumber](WhileStatements/PrimeNumbers.cs#L11) method.
 
 Implement the method that returns the latest prime number in the (0, n] interval.
 
 
 #### Sub-task 15
 
-Open the [PrimeNumbers.cs](WhileStatements/PrimeNumbers.cs) file, and navigate to the [SumPrimeNumbers](WhileStatements/PrimeNumbers.cs#L5) method.
+Open the [PrimeNumbers.cs](WhileStatements/PrimeNumbers.cs) file, and navigate to the [SumLastPrimeNumbers](WhileStatements/PrimeNumbers.cs#L17) method.
 
 Implement the method that returns the sum of the latest _count_ prime numbers in the (0, n] interval.
 
