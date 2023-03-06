@@ -175,7 +175,7 @@ public static int SumArithmeticSequenceTerms2(int n)
 
 #### Sub-task 3
 
-Open the [ArithmeticSequences.cs](WhileStatements/ArithmeticSequences.cs) file, and navigate to the [SumArithmeticSequenceTerms3](WhileStatements/ArithmeticSequences.cs#L5) method.
+Open the [ArithmeticSequences.cs](WhileStatements/ArithmeticSequences.cs) file, and navigate to the [SumArithmeticSequenceTerms3](WhileStatements/ArithmeticSequences.cs#L17) method.
 
 Implement the method that returns the sum of an arithmetic sequence elements when the common difference is 3.
 
@@ -186,7 +186,7 @@ Introduce a constant to avoid magic numbers in your code.
 
 #### Sub-task 4
 
-Open the [ArithmeticSequences.cs](WhileStatements/ArithmeticSequences.cs) file, and navigate to the [SumArithmeticSequenceTerms4](WhileStatements/ArithmeticSequences.cs#L5) method.
+Open the [ArithmeticSequences.cs](WhileStatements/ArithmeticSequences.cs) file, and navigate to the [SumArithmeticSequenceTerms4](WhileStatements/ArithmeticSequences.cs#L23) method.
 
 Implement the method that returns the sum of an arithmetic sequence elements.
 
