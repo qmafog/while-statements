@@ -4,26 +4,98 @@
     {
         public static uint SumGeometricSequenceTerms1(uint a, uint r, uint n)
         {
-            // TODO 3-1. Implement the method that returns sum of a geometric sequence terms.
-            throw new NotImplementedException();
+            uint i = 0, j;
+            uint sum = 0;
+            uint elem;
+            while (i < n)
+            {
+                j = 0;
+                elem = a;
+                while (j < i)
+                {
+                    elem *= r;
+                    j++;
+                }
+
+                sum += elem;
+                i++;
+            }
+
+            return sum;
         }
 
         public static uint SumGeometricSequenceTerms2(uint n)
         {
-            // TODO 3-2. Implement the method that returns sum of a geometric sequence terms.
-            throw new NotImplementedException();
+            const uint r = 3;
+            const uint a = 13;
+            uint i = 0, j;
+            uint sum = 0;
+            uint elem;
+            while (i < n)
+            {
+                j = 0;
+                elem = a;
+                while (j < i)
+                {
+                    elem *= r;
+                    j++;
+                }
+
+                sum += elem;
+                i++;
+            }
+
+            return sum;
         }
 
         public static uint CountGeometricSequenceTerms3(uint a, uint r, uint maxTerm)
         {
-            // TODO 3-3. Implement the method that returns count of a geometric sequence terms.
-            throw new NotImplementedException();
+            uint i = 0, j;
+            uint sum = 0;
+            uint elem;
+            do
+            {
+                j = 0;
+                elem = a;
+                while (j < i)
+                {
+                    elem *= r;
+                    j++;
+                }
+
+                sum += elem;
+                i++;
+            }
+            while (elem <= maxTerm);
+
+            return i - 1;
         }
 
         public static uint CountGeometricSequenceTerms4(uint a, uint r, uint n, uint minTerm)
         {
-            // TODO 3-4. Implement the method that returns count of a geometric sequence terms.
-            throw new NotImplementedException();
+            uint i = 0, j;
+            uint sum = 0, count = 0;
+            uint elem;
+            while (i < n)
+            {
+                j = 0;
+                elem = a;
+                while (j < i)
+                {
+                    elem *= r;
+                    j++;
+                }
+
+                if (elem >= minTerm)
+                {
+                    sum += elem;
+                    count++;
+                }
+
+                i++;
+            }
+
+            return count;
         }
     }
 }
